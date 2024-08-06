@@ -1,0 +1,6 @@
+model_name_or_path: F:/local/data/model/meta-llama/Llama-2-7b-hf # meta-llama/Meta-Llama-3-8B-Instruct
+#model_name_or_path: /media/data/model/huggingface/meta-llama/Llama-2-7b-hf # meta-llama/Meta-Llama-3-8B-Instruct
+
+adapter_name_or_path: saves/Llama-2-7b-hf/lora/sft/ml
+template: llama2
+finetuning_type: lora

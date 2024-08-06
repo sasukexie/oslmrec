@@ -1,0 +1,12 @@
+{
+  "ml-100k_pt": {"file_name": "ml-100k_pt.json", "columns": {"prompt": "text"}},
+  "ml-100k_ft": {"file_name": "ml-100k_ft.json"},
+  "ml-100k_pd": {"file_name": "ml-100k_pd.json"},
+  "yelp_pt": {"file_name": "yelp_pt.json", "columns": {"prompt": "text"}},
+  "yelp_ft": {"file_name": "yelp_ft.json"},
+  "yelp_pd": {"file_name": "yelp_pd.json"},
+  "movie_ft": {"file_name": "movie_ft.json"},
+  "movie_pd": {"file_name": "movie_pd.json"},
+  "yelp1_ft": {"file_name": "yelp1_ft.json"},
+  "yelp1_pd": {"file_name": "yelp1_pd.json"}
+}

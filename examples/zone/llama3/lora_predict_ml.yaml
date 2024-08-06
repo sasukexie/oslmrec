@@ -1,0 +1,27 @@
+### model
+#model_name_or_path: F:/local/data/model/meta-llama/Llama-3-8B
+model_name_or_path: saves/models/llama3-8b/Llama-3-8B-Instruct_lora_sft_ml
+adapter_name_or_path: saves/llama-3-8b/lora/sft/ml
+
+### method
+stage: sft
+do_predict: true
+finetuning_type: lora
+
+### dataset
+dataset_dir: data/zone
+dataset: ml-100k_predict
+template: llama2
+cutoff_len: 512
+max_samples: 20
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+output_dir: saves/llama-3-8b/lora/predict/ml
+overwrite_output_dir: true
+
+### eval
+per_device_eval_batch_size: 2
+predict_with_generate: true
+ddp_timeout: 180000000
